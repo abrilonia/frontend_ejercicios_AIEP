@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulario de registro</h1>
-    <form action="/procesar-formulario" method="post">
+    <form action="/index" method="post">
         <fieldset>
           <legend>Datos personales:</legend>
           <label for="nombre">Nombre:</label>
@@ -129,7 +129,8 @@
           contener al menos una letra mayúscula, una letra minúscula y un número -->
 
           <label for="contrasena">Contraseña:</label>
-          <input type="password" id="contrasena" name="contrasena" minlength="8" required><br>
+          <input type="password" id="contrasena" name="contrasena" minlength="8" 
+          title="Se necesita que contenga almenos una letra Minúscula , una Mayúscula y un Número , con un mínimo de 8 caracteres" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
       
           <label for="confirmar_contrasena">Confirmar contraseña:</label>
           <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" minlength="8" required><br>
