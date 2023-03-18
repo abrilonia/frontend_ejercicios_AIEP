@@ -55,6 +55,7 @@ aside {
     display: flex;
     flex-direction: column;
     margin-left: auto;
+    margin-right: 10px;
     padding: 0;
     background-color: pink;
     flex-grow: 1;
@@ -66,13 +67,12 @@ ul.aside{
     justify-content: space-around;
     flex-grow: 1;
 }
-img, h2, h3 {
+img, h2, h3, p {
     display: flex;
     justify-content: center;
 }
-p {
+p.texto {
     display: flex;
-    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
 }
