@@ -1,0 +1,82 @@
+.head1 {   
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    }
+
+ #l1:hover, #l2:hover, #l3:hover, #l4:hover, #l5:hover{
+    
+    color: red;
+    background-color: rgb(211, 165, 177);
+} 
+.menu {
+    margin: 0;
+    padding: 0;
+       
+}
+.menu li, .finalpagina li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+  color: rgb(115, 22, 31);
+}
+.finalpagina{
+    display: flex;
+    justify-content: center;
+}
+a:hover{
+    color: palevioletred;
+}
+main{
+    display: flex;
+    flex-direction: row; 
+    background-color: pink;
+   
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: rgb(248, 226, 230);
+    margin-left: auto;
+
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding: 0;
+    background-color: pink;
+    flex-grow: 1;
+    
+}
+ul.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+img, h2, h3 {
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-evenly;
+}
