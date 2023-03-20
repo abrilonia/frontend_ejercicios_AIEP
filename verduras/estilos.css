@@ -1,0 +1,85 @@
+.principal{
+    
+    width: 100vm;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+img{
+    width: 600px;
+    height: 210px;
+}
+header h1{
+    color: #282291;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imagenPrincipal{
+    width: fit-content;
+    padding: 1px;
+    border: 1px solid #9e9e9e;
+}
+.imagenBorde{
+    width: fit-content;
+    padding: 4px;
+    border: 1px solid #9e9e9e;
+}
+.vegetales{
+    font-size: 14px;
+    color: #282291;
+    font-weight: bold;
+}
+li {
+    color: #b0c5f7
+}
+li span {
+    color: black;
+}
+h3 {
+    color: #282291;
+    margin-top: 40px;
+}
+table{
+    border-collapse: collapse;
+    table-layout:fixed ;
+}
+.titulosTabla{
+    background-color: #282291;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+.vegetalTabla{
+   text-align: left;
+   background-color: #c0d0f6;
+   color: #282291;
+   font-weight: bold; 
+  
+}
+tbody th {
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding: 5px;
+}
+
+tbody td {
+    border-bottom: 1px solid #c0d0f6;
+    border-left: 1px solid #c0d0f6;
+    text-align: center;
+    padding: 10px 6px;
+    height: 15px;
+    width: 140px;
+}
+
+footer span {
+    font-weight: bold;
+}
+footer p {
+    font-size: 12px;
+}
