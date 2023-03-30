@@ -1,0 +1,86 @@
+/* Para el sexto layaud */
+
+.grid6 {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-areas: 
+    "h h h h h"
+    "n t t t t"
+    "n t t t t"
+    "n a a a a"
+    "f f f f f";
+    gap: 10px;
+}
+
+header {
+    grid-area: h;
+}
+nav {
+    grid-area: n;
+}
+article {
+    grid-area: t;
+}
+
+aside{
+    grid-area: a;
+}
+
+footer{
+    grid-area: f;
+}
+
+/* Para el séptimo layaud */
+
+.grid7 {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-areas: 
+    "n h h h h"
+    "n t t t t"
+    "n t t t t"
+    "n a a a a"
+    "n f f f f";
+    gap: 10px;
+}
+
+/* Para el octavo layaud */
+
+.grid8 {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-areas: 
+    "h h h h h"
+    "a t t t t"
+    "n t t t t"
+    "n t t t t"
+    "n f f f f";
+    gap: 10px;
+}
+
+/* Para el noveno layaud */
+
+.grid9 {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-areas: 
+    "h h h h h"
+    "n t t t t"
+    "n t t t t"
+    "a t t t t"
+    "a f f f f";
+    gap: 10px;
+}
+
+/* Para el décimo layaud */
+.grid10 {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-areas: 
+    "h h h h a"
+    "n t t t t"
+    "n t t t t"
+    "n t t t t"
+    "n f f f f";
+    gap: 10px;
+}
